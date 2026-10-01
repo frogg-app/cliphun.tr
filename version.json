@@ -13,6 +13,11 @@
       "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.2.0/ClipHuntr-0.2.0.dmg",
       "sha256": "ac608f9d8918b744feb38192936058d29b704fe1c294cc18353c05ec95da5427",
       "size": 113888994
+    },
+    "android": {
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.2.0/ClipHuntr-0.2.0.apk",
+      "sha256": "5555cb3bf08ac90d4a8585319da69bb9418737e55a40c3b17331a5d0fa271578",
+      "size": 17394021
     }
   }
 }
