@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipHuntr — trending Twitch &amp; Kick clips for clipping channels</title>
+<link rel="stylesheet" href="/style.css"></head>
+<body><main>
+<h1>Clip<span>Huntr</span></h1>
+<p>Finds trending Twitch and Kick clips from the creators you follow, so you can preview, download, edit and post them.</p>
+<div class="dl" id="dl"><a href="/download/">Download</a></div>
+<p class="small" id="ver"></p>
+<pre id="notes" hidden></pre>
+</main>
+<script src="/download.js"></script>
+<script>
+manifest().then(m => {
+  const me = guessPlatform();
+  const plats = Object.keys(m.downloads || {}).sort((a, b) => (b === me) - (a === me));
+  document.getElementById('dl').innerHTML = plats.map(p =>
+    `<a class="${p === me ? 'primary' : ''}" href="/download/${p === 'macos' ? 'mac' : p}/">Download for ${LABEL[p] || p}</a>`).join('');
+  document.getElementById('ver').textContent = `Version ${m.version}${m.released ? ' · ' + m.released : ''}`;
+  if (m.notes) { const n = document.getElementById('notes'); n.textContent = m.notes; n.hidden = false; }
+}).catch(e => { document.getElementById('ver').textContent = e.message; });
+</script>
+</body></html>

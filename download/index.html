@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download ClipHuntr</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><h1>Download Clip<span>Huntr</span></h1><p id="msg">Finding the right download…</p>
+<div class="dl"><a href="/download/mac/">macOS</a><a href="/download/windows/">Windows</a></div></main>
+<script src="/download.js"></script>
+<script>
+// Sends you straight to your platform's installer when we can tell what you're on.
+const p = guessPlatform();
+if (p) location.replace(p === 'macos' ? '/download/mac/' : '/download/windows/');
+else document.getElementById('msg').textContent = 'Pick your platform:';
+</script></body></html>

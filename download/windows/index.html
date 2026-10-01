@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Downloading ClipHuntr</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><h1>Clip<span>Huntr</span></h1><p id="msg">Starting your download…</p></main>
+<script src="/download.js"></script>
+<script>
+manifest().then(m => {
+  const a = (m.downloads || {})['windows'];
+  if (!a) throw new Error('No ' + LABEL['windows'] + ' build in the latest release yet.');
+  document.getElementById('msg').innerHTML = 'Downloading ClipHuntr ' + m.version + ' for ' + LABEL['windows'] + '. <a href="' + a.url + '">Click here</a> if it doesn\'t start.';
+  location.replace(a.url);
+}).catch(e => { document.getElementById('msg').textContent = e.message; });
+</script></body></html>

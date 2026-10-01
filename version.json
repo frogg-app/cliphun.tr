@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "released": "2026-10-01",
+  "notes": "ClipHuntr 0.1.0 \u2014 first public build.",
+  "notes_url": "https://cliphun.tr/",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.1.0/ClipHuntr-0.1.0-setup.exe",
+      "sha256": "fc45ba5ae242162c2dee0736c906cdaf6a87de542ae9a50f1524c19f65c6348e",
+      "size": 118866125
+    },
+    "macos": {
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.1.0/ClipHuntr-0.1.0.dmg",
+      "sha256": "4baf16964f5680d83cb023c4455a3d380d31dd784a4f84b0544bf12728aea836",
+      "size": 112121637
+    }
+  }
+}
