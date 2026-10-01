@@ -1,18 +1,18 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "released": "2026-10-01",
-  "notes": "ClipHuntr 0.1.0 \u2014 first public build.",
+  "notes": "ClipHuntr 0.2.0 \u2014 new Pipeline board, Library tabs with an Edits list, posting to YouTube/TikTok/Instagram, line icons, and lots of fixes.",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.1.0/ClipHuntr-0.1.0-setup.exe",
-      "sha256": "fc45ba5ae242162c2dee0736c906cdaf6a87de542ae9a50f1524c19f65c6348e",
-      "size": 118866125
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.2.0/ClipHuntr-0.2.0-setup.exe",
+      "sha256": "791561c4820c649a38de1fb019e9a4eac7388b2970458530ca1bb91d52e6fcf2",
+      "size": 119471521
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.1.0/ClipHuntr-0.1.0.dmg",
-      "sha256": "4baf16964f5680d83cb023c4455a3d380d31dd784a4f84b0544bf12728aea836",
-      "size": 112121637
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.2.0/ClipHuntr-0.2.0.dmg",
+      "sha256": "ac608f9d8918b744feb38192936058d29b704fe1c294cc18353c05ec95da5427",
+      "size": 113888994
     }
   }
 }
