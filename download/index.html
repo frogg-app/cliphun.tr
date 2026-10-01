@@ -1,12 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Download ClipHuntr</title><link rel="stylesheet" href="/style.css"></head>
-<body><main><h1>Download Clip<span>Huntr</span></h1><p id="msg">Finding the right download…</p>
-<div class="dl"><a href="/download/mac/">macOS</a><a href="/download/windows/">Windows</a></div></main>
-<script src="/download.js"></script>
-<script>
-// Sends you straight to your platform's installer when we can tell what you're on.
-const p = guessPlatform();
-if (p) location.replace(p === 'macos' ? '/download/mac/' : '/download/windows/');
-else document.getElementById('msg').textContent = 'Pick your platform:';
-</script></body></html>
+<title>Download ClipHuntr</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"></head>
+<body class="sub"><header class="nav"><div class="wrap nav-in"><a class="logo" href="/">Clip<span>Huntr</span></a><a class="btn ghost sm" href="/#download">All downloads</a></div></header>
+<main class="wrap narrow"><h1 class="h2">Download ClipHuntr</h1><p class="lead" id="msg">Finding the right download…</p><div class="plat-row"><a class="btn" href="/download/windows/">Windows</a><a class="btn" href="/download/mac/">macOS</a><a class="btn" href="/download/android/">Android</a><a class="btn disabled" href="/download/linux/">Linux · soon</a></div></main><script src="/download.js"></script><script>const p = guessPlatform();
+if (p && !SOON.includes(p)) location.replace('/download/' + PATH[p] + '/');
+else document.getElementById('msg').textContent = 'Pick your platform:';</script></body></html>
