@@ -16,7 +16,7 @@ const SOON = ['linux'];
 function startDownload(plat) {
   const msg = document.getElementById('msg');
   manifest().then(m => {
-    const a = (m.downloads || {})[plat];
+    const a = (m.zips || {})[plat] || (m.downloads || {})[plat];
     if (!a) throw new Error(`The ${LABEL[plat]} build isn't in the latest release yet. Check back soon.`);
     msg.innerHTML = `Downloading ClipHuntr ${m.version} for ${LABEL[plat]}. <a href="${a.url}">Click here</a> if it doesn't start.`;
     location.replace(a.url);
