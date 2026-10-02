@@ -1,35 +1,35 @@
 {
-  "version": "0.3.1",
-  "released": "2026-10-01",
-  "notes": "Release 0.3.1: mobile layout fixes\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "version": "0.4.2",
+  "released": "2026-10-03",
+  "notes": "ClipHuntr 0.4.2\n\n- Clip preview: big \u2039 \u203a arrows and \u2190/\u2192 keys to move between clips, with a smooth slide\n- Edit button moved right; Prev/Next buttons removed\n- Cleaner Trending cards: signal chip, category and one row of stats\n- LIVE badge tidied up\n- Removed the Refresh button (Trending updates live)\n- Export preview controls match the player bar",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.3.1/ClipHuntr-0.3.1-setup.exe",
-      "sha256": "ffa7716fe06e39f6f5f928017388e64ff9c5eda5f46ef10ce27f4cdd0f8f06a7",
-      "size": 119546484
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.2/ClipHuntr-0.4.2-setup.exe",
+      "sha256": "bde7279a20b4e5025dd144696c3e4106d2a5c4bd181656b79fd81a4f3df8f3fb",
+      "size": 120288530
     },
     "android": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.3.1/ClipHuntr-0.3.1.apk",
-      "sha256": "88bfe21290b7d08b0caddc4af6279e980e0ca5e45dab5293aa6cdfbf6ee0d470",
-      "size": 18218249
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.2/ClipHuntr-0.4.2.apk",
+      "sha256": "e2cfce3a0812309f7e499526f56cb6f56d0a67a9b85e0b8d6bda2ea6ff21e811",
+      "size": 20786065
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.3.1/ClipHuntr-0.3.1.dmg",
-      "sha256": "dd671048a1a395f8abfa33ba0cda5297829bf6a81de4546f5e1b8a8c72d9d929",
-      "size": 114759604
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.2/ClipHuntr-0.4.2.dmg",
+      "sha256": "8448cd253205490e20f6ea196cc7dbe03afe3a4777e7522e4dc2f471f1c8012b",
+      "size": 105750693
     }
   },
   "zips": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.3.1/ClipHuntr-0.3.1-Windows.zip",
-      "sha256": "125468da40fa0b1f6229008dafb4321512451b3aec09faf7b57fe5bc6a617eea",
-      "size": 119047313
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.2/ClipHuntr-0.4.2-Windows.zip",
+      "sha256": "c76819298583b2d4d48aa0edc8c3fcb70d83fd07e77c81a28a4948a23d3e4e74",
+      "size": 119711217
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.3.1/ClipHuntr-0.3.1-macOS.zip",
-      "sha256": "cd01fc51ea6387a30d66031e8cb4fe6a8e03c7d59f2be879bef6609de8d5c788",
-      "size": 112813164
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.2/ClipHuntr-0.4.2-macOS.zip",
+      "sha256": "a61c5bb81aadb4b26fffe613fac2e9d169d5315bfba9b2963a4d32980aaa539a",
+      "size": 105421262
     }
   }
 }
