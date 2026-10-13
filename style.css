@@ -226,3 +226,9 @@ body.sub .pill { margin-bottom: 18px; }
 .phone-stats dd { margin: 0; font-weight: 600; white-space: nowrap; }
 .phone-cable { position: absolute; left: 50%; bottom: -40px; width: 6px; height: 40px; margin-left: -3px; border-radius: 3px; background: linear-gradient(#55554f, #2e2e2b); }
 .phone-screen .live { margin: 0; }
+.whatsnew { max-width: 560px; margin: 8px auto 0; font-size: 14px; color: var(--muted); }
+.whatsnew.hidden { display: none; }
+.whatsnew summary { cursor: pointer; text-align: center; }
+.whatsnew h4 { margin: 14px 0 4px; color: inherit; font-size: 14px; }
+.whatsnew ul { margin: 0; padding-left: 20px; }
+.whatsnew li { margin: 2px 0; }

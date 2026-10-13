@@ -105,7 +105,7 @@
       <ul class="ticks">
         <li><b>Trim</b> with in/out handles and keyboard shortcuts.</li>
         <li><b>Reframe</b> to 9:16: blur fill, crop, or a facecam-over-gameplay stack it remembers for each streamer.</li>
-        <li><b>Auto-captions</b> transcribed on your machine, with bold pop styles and active-word highlights.</li>
+        <li><b>Auto-captions</b> transcribed on your machine, with bold pop styles, active-word highlights and word-by-word animation you can retime by dragging.</li>
         <li><b>Loudness normalised</b> to −14 LUFS, plus a credit line for the streamer.</li>
         <li><b>Batch export</b> your whole shortlist with one preset.</li>
       </ul>
@@ -190,6 +190,7 @@
     <a class="plat soon" data-p="linux" href="/download/linux/"><svg viewBox="0 0 24 24"><path d="M12 2c-2.2 0-3.6 1.9-3.6 4.6 0 1.5.4 2.3-.5 3.9-1 1.8-2.9 3.9-2.9 6.6 0 .8.2 1.4.6 1.9-.6.4-1.6.6-1.6 1.4 0 1 1.7.9 3 1.4 1 .3 1.8.2 2.4-.3.9.3 2.3.4 3.3.4s2.4-.1 3.3-.4c.6.5 1.4.6 2.4.3 1.3-.5 3-.4 3-1.4 0-.8-1-1-1.6-1.4.4-.5.6-1.1.6-1.9 0-2.7-1.9-4.8-2.9-6.6-.9-1.6-.5-2.4-.5-3.9C15.6 3.9 14.2 2 12 2zm-1.4 3.7c.5 0 .8.6.8 1.2s-.3 1.1-.8 1.1-.8-.5-.8-1.1.3-1.2.8-1.2zm2.8 0c.5 0 .8.6.8 1.2s-.3 1.1-.8 1.1-.8-.5-.8-1.1.3-1.2.8-1.2zM12 8.6c.9 0 2 .6 2 1s-1.1 1.1-2 1.1-2-.7-2-1.1 1.1-1 2-1z"/></svg><b>Linux</b><small>On the way</small><span class="pill sm">Coming soon</span></a>
   </div>
   <p class="fine center" id="ver"></p>
+  <details class="whatsnew hidden" id="whatsnew"><summary></summary><div></div></details>
 </div></section>
 
 <section id="pricing" class="sec alt"><div class="wrap">
@@ -236,6 +237,19 @@ if (card) { card.classList.add('mine'); card.querySelector('.btn').classList.add
 manifest().then(m => {
   document.getElementById('ver').textContent = `Latest version ${m.version}${m.released ? ' · released ' + m.released : ''}`;
   document.getElementById('foot-ver').textContent = 'v' + m.version;
+  // Release notes from the manifest: "Heading" lines and "- item" lines.
+  if (m.notes) {
+    const w = document.getElementById('whatsnew'), esc = t => t.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+    let html = '', inList = false;
+    for (const l of m.notes.split('\n').map(x => x.trim()).filter(Boolean)) {
+      if (l.startsWith('- ')) { if (!inList) { html += '<ul>'; inList = true; } html += `<li>${esc(l.slice(2))}</li>`; }
+      else { if (inList) { html += '</ul>'; inList = false; } html += `<h4>${esc(l)}</h4>`; }
+    }
+    if (inList) html += '</ul>';
+    w.querySelector('summary').textContent = `What's new in ${m.version}`;
+    w.querySelector('div').innerHTML = html;
+    w.classList.remove('hidden');
+  }
 }).catch(() => {});
 </script>
 </body></html>
