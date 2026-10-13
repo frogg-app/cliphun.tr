@@ -1,35 +1,35 @@
 {
-  "version": "0.4.7",
+  "version": "0.4.8",
   "released": "2026-10-13",
-  "notes": "Improvements\n- In the desktop and Android apps, \"Upload\" buttons now read \"Add\" with a + icon (browsers still say Upload)",
+  "notes": "ClipHuntr 0.4.8\n\nFixes\n- Fixed \"filename too long\" errors when exporting clips. Long titles are now shortened before the export starts, and you're told if the export folder path itself is too long.\n\nImprovements\n- Exports now show live progress: preparing, downloading, rendering with a percentage, writing, then done or failed, with an elapsed timer and clear error messages.\n- New \"Open export folder\" button in the editor and on finished exports (desktop and Android app).",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.7/ClipHuntr-0.4.7-setup.exe",
-      "sha256": "aa77588fc4d6b3d205782a56f90f5cc9f01d4a8abca005e908d500a8b267c0c9",
-      "size": 122836655
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.8/ClipHuntr-0.4.8-setup.exe",
+      "sha256": "6d3028a2f4be20333f2d27789719ef06d96ed43380b52924375576f110dd6711",
+      "size": 122856907
     },
     "android": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.7/ClipHuntr-0.4.7.apk",
-      "sha256": "54d10a2f616c429593dd3cd2ef0635b7237ee664f5c4b90e87fc5fee80bf80b0",
-      "size": 22005605
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.8/ClipHuntr-0.4.8.apk",
+      "sha256": "f8719ca0f5ed04a2083b6aff1a2e8d4151ccf7e2b30cba9dd8881d3c6f7dc330",
+      "size": 22005989
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.7/ClipHuntr-0.4.7.dmg",
-      "sha256": "60c998068cd1809c64b04e2f98e44a9a32d33d32886e7b58b65dc63d68eded24",
-      "size": 110894975
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.8/ClipHuntr-0.4.8.dmg",
+      "sha256": "80831f878a2cb04146f7ef66d581f4b3c18535afe50ef3e2139d0d961b553b73",
+      "size": 110875529
     }
   },
   "zips": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.7/ClipHuntr-0.4.7-Windows.zip",
-      "sha256": "52048264f6d9b8f19e9de1dfb8afa9f32b84feb8b8a473bc3c1901ef243d52f3",
-      "size": 122261075
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.8/ClipHuntr-0.4.8-Windows.zip",
+      "sha256": "7b858704eb175dec88823cc11bc25bf23afea654c09c6cb7f52e69564107a3c2",
+      "size": 122281284
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.7/ClipHuntr-0.4.7-macOS.zip",
-      "sha256": "f7149934e5ab09245e91b2a05c0ade8fd59f931d3a7f5d19e50c528f6f9b55d1",
-      "size": 110542786
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.8/ClipHuntr-0.4.8-macOS.zip",
+      "sha256": "a73493148914a544e08fd1df59a393de5d01ec7d2f1ef160cf2cb2cd1a9e0831",
+      "size": 110513717
     }
   }
 }
