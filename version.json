@@ -1,35 +1,35 @@
 {
-  "version": "0.4.4",
+  "version": "0.4.5",
   "released": "2026-10-13",
-  "notes": "Captions\n- Much better word timing: captions now split at real pauses instead of grouping words seconds apart.\n- New caption editor: drag a caption's edges or middle to retime it, and drag between words to time each word's animation.\n- Manually added captions now animate word by word.\n- Right-click a caption to split, merge or delete it.\n- Install and remove caption models in Settings \u2192 Captions; nothing downloads until you choose a model.\n- Seven new free caption fonts, a nicer fonts section, and \"Edit as new style\".\n\nEditor and library\n- Rename clips by clicking the title. Emoji and long titles now work everywhere, including file names.\n- \"Export & save\" button on the export page to save a file without posting.\n- Tidier Edits cards and styled hover hints across the app.\n- The license check-in banner can be dismissed.",
+  "notes": "Captions\n- Edit captions right on the timeline: click one to change its words, split, merge, even out or delete it.\n- Drag the lines between words on the timeline to time each word's animation.\n- Right-click a caption on the timeline to split, merge or delete it.\n- Simpler captions panel: regenerate, shift and style settings in one place.\n\nEditor\n- The selection bar no longer covers selected items on the timeline.",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.4/ClipHuntr-0.4.4-setup.exe",
-      "sha256": "61159de6ddd63323a1b0d1a61674599e0e54df66af81a0542851264da1fde6bc",
-      "size": 122833728
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.5/ClipHuntr-0.4.5-setup.exe",
+      "sha256": "ae2734fd5a48dcc687ec09960be4ee6644398f64be9d9777bf06c3e04903ae14",
+      "size": 122839961
     },
     "android": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.4/ClipHuntr-0.4.4.apk",
-      "sha256": "f9a620b8db51fb4cfa23ae3ddf76f33bdb7d7516b92fb41b2c4799f7e50724c8",
-      "size": 22007977
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.5/ClipHuntr-0.4.5.apk",
+      "sha256": "9199b58ae742b8b2d1e407fec0a15909c68accffbedeeb0e5a0cb278075f43d7",
+      "size": 22003057
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.4/ClipHuntr-0.4.4.dmg",
-      "sha256": "a12540ddf15e53b8e1e0e96bc5b9baa954c1efa700656754cf7156b69ae31f8c",
-      "size": 110890843
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.5/ClipHuntr-0.4.5.dmg",
+      "sha256": "8311782f421b0613c47887ac0b851083adfec738a8386b2b0663314e2847a935",
+      "size": 110869850
     }
   },
   "zips": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.4/ClipHuntr-0.4.4-Windows.zip",
-      "sha256": "2c305e612acf1539b7cca9c2f3a3354b56778dd7b79cea12fb094b93b2093cc9",
-      "size": 122257592
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.5/ClipHuntr-0.4.5-Windows.zip",
+      "sha256": "41a3a1dcc70c4ab29e70c3de08d8b07b8592dcf7633f23405ff1aee12d92ba37",
+      "size": 122264671
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.4/ClipHuntr-0.4.4-macOS.zip",
-      "sha256": "23091c1129b705f2d2eaa6d93e88dbfdf975545a5e049f2e6dcc3b7528050534",
-      "size": 110526558
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.5/ClipHuntr-0.4.5-macOS.zip",
+      "sha256": "6f1d2108a2d36431820490271266393713f3c076c7b39d8c63611cf8d31992d0",
+      "size": 110508043
     }
   }
 }
