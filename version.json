@@ -1,35 +1,35 @@
 {
-  "version": "0.5.2",
+  "version": "0.5.3",
   "released": "2026-10-14",
-  "notes": "ClipHuntr 0.5.2\n\nNew: find creators you'd otherwise miss\n- Seen live recently: ClipHuntr now remembers the top live streamers on Twitch and Kick while it runs, and fetches their clips once they go offline. See them in Creators and track them in one click.\n- Discover feed: switch Trending to Discover to see breakout clips from creators you don't track yet, each with a \"+ Track\" button.\n- Auto-track rules: in Settings \u2192 Discovery, set rules like \"Just Chatting, 10\u00d7 usual, 50k views\" to start tracking matching creators automatically (with a daily limit).\n\nFixes\n- On Windows, clicking the update notification now opens ClipHuntr to update in the app, instead of the download page.",
+  "notes": "ClipHuntr 0.5.3\n\nImprovements\n- Creators now has Discover and Live now tabs, so new creators to track are front and centre.\n\nFixes\n- On Windows, clicking a clip notification now opens the clip in ClipHuntr instead of your web browser.",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.2/ClipHuntr-0.5.2-setup.exe",
-      "sha256": "d113fb9a48f04d09bf2fb1de049422415d582441eb81bb7376e5dd6fef13daf0",
-      "size": 123332659
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.3/ClipHuntr-0.5.3-setup.exe",
+      "sha256": "7749b1a7e11cc2fef0aaebd687d1463c632c4d472fd57f32035dd25a950faf2a",
+      "size": 123334914
     },
     "android": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.2/ClipHuntr-0.5.2.apk",
-      "sha256": "21b5729f5079d28ceeba942d630ac0c92679e7b99a4bd779143387e1909d675b",
-      "size": 23917865
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.3/ClipHuntr-0.5.3.apk",
+      "sha256": "034111cd1c7877abfd754d218bdbfbc0b6eddca0ec0a74f3578aeaa3309b4d80",
+      "size": 23933293
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.2/ClipHuntr-0.5.2.dmg",
-      "sha256": "0a4012cfb42093298a4487247e253066f4e24e656ba1d07af46097ae18367fdc",
-      "size": 112016873
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.3/ClipHuntr-0.5.3.dmg",
+      "sha256": "e60b30f2ed0d2ce17124e17cc82aa6842b5920b88b3210632465d2aa199b8e22",
+      "size": 112044051
     }
   },
   "zips": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.2/ClipHuntr-0.5.2-Windows.zip",
-      "sha256": "65fb1d2509062bcbe45529e24fe8888944016ba292f5cd990203240b443155ae",
-      "size": 122756826
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.3/ClipHuntr-0.5.3-Windows.zip",
+      "sha256": "cb55229d8d98557e4f0fad2bd2437403205c324881f41a92f6e78d169ed5bddb",
+      "size": 122759088
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.2/ClipHuntr-0.5.2-macOS.zip",
-      "sha256": "65d4e37da86579917b050dc29acb314948b79fa7586005a5afd49c90f034cc64",
-      "size": 111648868
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.3/ClipHuntr-0.5.3-macOS.zip",
+      "sha256": "e21e8bbd64771efa8fdbb7a5c8b6c4fcc4d80345dad1f4bd8ed87cb8d4e42c88",
+      "size": 111680007
     }
   }
 }
