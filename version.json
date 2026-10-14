@@ -1,35 +1,35 @@
 {
-  "version": "0.4.10",
+  "version": "0.5.0",
   "released": "2026-10-14",
-  "notes": "ClipHuntr 0.4.10\n\nImprovements\n- Checks for updates sooner: a few seconds after launch, hourly (including after the computer wakes from sleep), and when you come back to the app.\n\nFixes\n- Removed the extra close button in the desktop app's editor window, which showed a blank screen when clicked. Use the window's own close button.",
+  "notes": "ClipHuntr 0.5.0\n\nNew: Stream tab in the editor\n- Widen from stream: clip ended too soon? Drag the clip's edges out to pull extra seconds before or after straight from the streamer's VOD (Twitch and Kick). Kick clips get a quick line-up step so the footage matches exactly.\n- Stream chat: import the chat from the moment and show it on your video as an overlay box, a side column or bubbles. Drag and resize it right on the preview, set how long messages stay up, and pin individual messages as callouts.\n- Show or hide the chat from the timeline with the eye toggle.\n\nImprovements\n- The timeline now fills with your clip by default. Zoom out to see how far you can widen it.\n- Desktop notifications on Windows now show as ClipHuntr instead of Windows PowerShell.\n\nFixes\n- The highlight on the editor's side tabs no longer drifts onto the wrong tab after resizing the window.",
   "notes_url": "https://cliphun.tr/",
   "downloads": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.10/ClipHuntr-0.4.10-setup.exe",
-      "sha256": "b4c2a6ce399e211638b988f22009bd110b85e61c6bd44f666e15d2a1436a052b",
-      "size": 122865004
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.0/ClipHuntr-0.5.0-setup.exe",
+      "sha256": "1a6d75d92938221fa99a4b5d229c231e3b2fcab3765ec75795d48c735043bd4c",
+      "size": 123269874
     },
     "android": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.10/ClipHuntr-0.4.10.apk",
-      "sha256": "eb7f0feaddafb2787c86ae7c628314b3c7b9a0bc5c1312e8168f0c2ce8833350",
-      "size": 22037893
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.0/ClipHuntr-0.5.0.apk",
+      "sha256": "b75ebcfdfa1022d5d4424eb75f56cdffcc6fa37eb6894f88ff061fc22e18fe94",
+      "size": 23654965
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.10/ClipHuntr-0.4.10.dmg",
-      "sha256": "424cac5006417d909a5c7e87066c773ce3dc5b0a99aed17303edbb572ee1b6e8",
-      "size": 110851195
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.0/ClipHuntr-0.5.0.dmg",
+      "sha256": "63a2051d6b59a8dfaa4b56fa2eea9a78c5fc146de76652f1216d78b21f57daf3",
+      "size": 111823321
     }
   },
   "zips": {
     "windows": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.10/ClipHuntr-0.4.10-Windows.zip",
-      "sha256": "7b33d6a7e9b144d6dcefc560ae3465531e8445aa39c2a9f96a54f27ce9e8b277",
-      "size": 122289152
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.0/ClipHuntr-0.5.0-Windows.zip",
+      "sha256": "bfbabb1859a7d4399d5877e1c6e2eae20f6c1ce8706993e92bb76aa1fdaaf614",
+      "size": 122694046
     },
     "macos": {
-      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.4.10/ClipHuntr-0.4.10-macOS.zip",
-      "sha256": "c4d6bd81ddb38cd921979628bad0efe13b35173ec6d37728d7b378bd6e38ad77",
-      "size": 110493515
+      "url": "https://github.com/frogg-app/cliphun.tr/releases/download/v0.5.0/ClipHuntr-0.5.0-macOS.zip",
+      "sha256": "c3303c91040a79b361bc98e96ae520878aa2a7d21413fca33869bab29293a4d0",
+      "size": 111463773
     }
   }
 }
